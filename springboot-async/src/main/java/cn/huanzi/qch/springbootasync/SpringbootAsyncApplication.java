@@ -41,7 +41,7 @@ public class SpringbootAsyncApplication {
 //            testService.asyncTaskForTransaction(false);
             //事务测试，模拟异常事务回滚
 //            testService.asyncTaskForTransaction(true);
-
+            //不错哦
             long endTime = System.currentTimeMillis();
             System.out.println(Thread.currentThread().getName() + "：调用异步业务结束，耗时：" + (endTime - startTime));
         };
